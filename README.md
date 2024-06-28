@@ -72,7 +72,7 @@ receivers:
 receivers:
 - name: "alerta"
   webhook_configs:
-  - url: 'http://localhost:8080/webhooks/prometheus?api-key=QBPALlsFSkokm-XiOSupkbpK4SJdFBtStfrOjcdG'
+  - url: 'http://localhost:8080/api/webhooks/prometheus?api-key=QBPALlsFSkokm-XiOSupkbpK4SJdFBtStfrOjcdG'
     send_resolved: true
 ```
 
